@@ -1,4 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
+
+/* all colors */
+:root{
+    --orange:rgb(253, 110, 10);
+    --pinklight:rgb(255, 248, 243);
+    --dark01:rgb(24, 24, 24);
+    --dark02:rgb(71, 71, 71);
+    --dark03:rgb(117, 117, 117);
+}
+h1{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.he2{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.he3{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 600;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+a{
+    text-decoration: none;
+    color: var(--dark03);
+    
+}
+li{
+    list-style: none;
+}
+/* navbar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    gap: 20px;
+    margin: 50px 100px 50px ;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: var(--dark01);
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+span{
+    color: var(--orange);
+}
+.btn{
+   width: 120px;
+   color: white;
+   font-size: 16px;
+   font-weight: 700px;
+   background-color: var(--orange);
+   border-radius: 5px;
+   border: none;
+   padding: 10px 15px;
+}
+
