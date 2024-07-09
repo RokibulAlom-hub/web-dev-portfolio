@@ -214,4 +214,181 @@ color: var(--dark03);
 }
 .cards{
     display: flex;
+    gap: 20px;
+}
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    width: 267px;
+    height: 377px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+     */
+}
+.card > h4{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+margin: 20px 0;
+}
+.card > p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin: 20px 0;
+}
+
+
+/* resume section */
+.resume{
+    margin: 130px 50px;
+}
+.resume h2{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+ }
+.resume h3{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume h4{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume h5{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.boxwrap{
+    display: flex;
+    gap: 15px;
+}
+.box{
+    padding: 20px 25px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.butto{
+    margin: 20px 50px;
+    display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+/* footer */
+.footwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 100px;
+    
+}
+.footwrap h2{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: start;
+}
+.footwrap p{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.iconwrap{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+footer{
+    background-color: var(--pinklight);
+}
+input{
+    width: 420px;
+    height: 58px;
+    border: 0px none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 15px;
+}
+::placeholder{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+textarea{
+    border: 0px none;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    margin: 20px 0;
+    padding: 15px;
+    width: 450px;
+    height: 150px;
 }
